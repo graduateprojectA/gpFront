@@ -1,0 +1,13 @@
+CREATE TABLE `graduate`.`courses` (
+  `course_name` VARCHAR(200) NOT NULL,
+  `course_number` INT NOT NULL,
+  `c_hour` FLOAT NULL,
+  `credit` INT NULL,
+  PRIMARY KEY (`course_name`, `course_number`));
+
+CREATE TABLE graduate.computer_general (
+  id INT NOT NULL AUTO_INCREMENT,
+  category VARCHAR(100) NOT NULL,
+  c_name VARCHAR(200) NOT NULL,
+  PRIMARY KEY (id),
+  foreign key (c_name) references graduate.courses(course_name));
