@@ -95,10 +95,10 @@ insert into graduate.majors (major_name, major_number, category, recommend_time,
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('Advanced English','10099','글로벌의사소통','12','2241','Shu Che','29');
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('Advanced English','10099','글로벌의사소통','12','2241','Brian D. Ridgeway','30');
                
-INSERT into courses values ('소프트웨어공학',20472,3.0,3);
-INSERT into courses values ('임베디드시스템및실험',37271,3.0,3);
-INSERT into courses values ('컴퓨터네트워크',20495,3.0,3);  
-INSERT into courses values ('컴퓨터그래픽스',20494,3.0,3);  
-INSERT into courses values ('캡스톤디자인프로젝트A',36506,4.5,3); 
-INSERT into courses values ('SW리더십세미나I',38408,1.0,1);    
-INSERT into courses values ('SW리더십세미나II',38409,1.0,1);        
+INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('소프트웨어공학','20472','3.0','3');
+INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('임베디드시스템및실험','37271','3.0','3');
+INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('컴퓨터네트워크','20495','3.0','3');  
+INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('컴퓨터그래픽스','20494','3.0','3');  
+INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('캡스톤디자인프로젝트A','36506','4.5','3'); 
+INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('SW리더십세미나I','38408','1.0','1');    
+INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('SW리더십세미나II','38409','1.0','1');    
