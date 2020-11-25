@@ -23,12 +23,11 @@ CREATE TABLE `graduate`.`department` (             /*우리학교 모든 학과 
 
 
 CREATE TABLE `graduate`.`user` (                         /*사용자로부터 입력받는 사용자 정보*/
-  `user_index` INT NOT NULL,
   `user_id` INT NOT NULL,			
   `user_pw` VARCHAR(200) NOT NULL,
   `user_major` VARCHAR(200) NOT NULL,
   `time_out` BIGINT,			   /*사용자가 원하지 않는 시간대 뺀 거*/
-  PRIMARY KEY (`user_index`));
+  PRIMARY KEY (`user_id`));
 
 
 CREATE TABLE `graduate`.`user1_dropmajor` (        /*각 사용자로부터 원하지 않는 분반 처리 결과를 나타낸 과목 리스트*/
