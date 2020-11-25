@@ -39,7 +39,7 @@ CREATE TABLE `graduate`.`user1_dropmajor` (        /*각 사용자로부터 원�
   PRIMARY KEY (`major_name`, `major_number`, `division_number`));
 
 
-CREATE TABLE `graduate`.`offered` (          /*중간고사 기말고사 기간이 포함되어있어, 사용자에게 분반들을 과목별로 보여줄 예정*/
+CREATE TABLE `graduate`.`test` (          /*중간고사 기말고사 기간이 포함되어있어, 사용자에게 분반들을 과목별로 보여줄 예정*/
 `course_name`  VARCHAR(100) NOT NULL,
 `course_id` INT NOT NULL,   /*학수번호*/
 `course_num` INT NOT NULL,  /*번호*/
@@ -47,7 +47,7 @@ CREATE TABLE `graduate`.`offered` (          /*중간고사 기말고사 기간�
 `course_mid` VARCHAR(20),  /*중간*/
 `course_final` VARCHAR(20),  /*기말*/
 primary key (`course_id`, `course_num`), 
-foreign key (`course_name`,`course_id`) references courses(`course_name`,`course_number`));
+foreign key (`course_name`,`course_id`) references majors(`major_name`,`major_number`));
 
 
 
@@ -138,11 +138,3 @@ insert into graduate.majors (major_name, major_number, category, recommend_time,
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('Advanced English','10099','글로벌의사소통','12','2241','Jean Paquette','28');
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('Advanced English','10099','글로벌의사소통','12','2241','Shu Che','29');
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('Advanced English','10099','글로벌의사소통','12','2241','Brian D. Ridgeway','30');
-               
-INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('소프트웨어공학','20472','3.0','3');
-INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('임베디드시스템및실험','37271','3.0','3');
-INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('컴퓨터네트워크','20495','3.0','3');  
-INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('컴퓨터그래픽스','20494','3.0','3');  
-INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('캡스톤디자인프로젝트A','36506','4.5','3'); 
-INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('SW리더십세미나I','38408','1.0','1');    
-INSERT into graduate.courses (course_name,course_number,c_hour,credit) values ('SW리더십세미나II','38409','1.0','1');    
