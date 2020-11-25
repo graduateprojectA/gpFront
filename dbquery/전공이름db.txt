@@ -1,4 +1,0 @@
-CREATE TABLE `graduate`.`major_name` (
-  `major_name` VARCHAR(100) NOT NULL,
-  PRIMARY KEY (`major_name`));
-
