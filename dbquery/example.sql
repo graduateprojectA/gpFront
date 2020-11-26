@@ -49,3 +49,13 @@ CREATE TABLE `graduate`.`test` (          /*중간고사 기말고사 기간이 
 `course_final` VARCHAR(20),  /*기말*/
 primary key (`course_id`, `course_num`), 
 foreign key (`course_name`,`course_id`) references majors(`major_name`,`major_number`));
+
+CREATE TABLE `graduate`.`time_table` ( /*가능한 시간표*/
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `table_number` INT NULL, /*시간표 번호*/
+  `week` VARCHAR(45) NULL, /*요일*/
+  `period` INT NULL, /*교시*/
+  `course_name` VARCHAR(200) NULL,/*교과목명*/
+  `division_number` INT NULL,/*분반번호*/
+  `professor_name` VARCHAR(100) NULL,/*교수명*/
+  PRIMARY KEY (`id`));
