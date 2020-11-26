@@ -38,7 +38,7 @@ insert into graduate.majors (major_name, major_number, category, recommend_time,
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('소프트웨어공학','20472','전공필수','32','3654','박지현','3');
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('컴퓨터그래픽스','20494','전공선택','32','2253','김영준','1');
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('컴퓨터네트워크','20495','전공선택','32','1635','이미정','1');
-insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('컴퓨터네트워크','20495','전공선택','32','2342','이미정','2');
+insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('컴퓨터네트워크','20495','전공선택','32','2342','이숙영','2');
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('캡스톤디자인프로젝트A','36506','전공선택','32','245556','김현수','1');
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('임베디드시스템및실험','37271','전공선택','32','1213','박상수','1');
 insert into graduate.majors (major_name, major_number, category, recommend_time, this_time, professor_name, division_number) values ('프로그래밍언어론','20499','전공필수','42','1332','김연정','1');
