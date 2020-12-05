@@ -1,4 +1,4 @@
-# graduate_project : CurVelio
+# (●'◡'●) 졸업프로젝트 CurVelio를 소개합니다 (●'◡'●)
 
 ## 1) 시연 영상 (유튜브채널 주소) 📽
 
