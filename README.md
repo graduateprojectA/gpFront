@@ -1,5 +1,4 @@
-# graduate_project
-graduate project
+## graduate_project : CurVelio
 
 # 1) 시연 영상 (유튜브채널 주소)
 # 2) 프로젝트에 대한 소개
