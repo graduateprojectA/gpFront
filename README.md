@@ -20,6 +20,8 @@ The user's input automatically generates timetables.
 <br>
 If the credits in the generated timetable, such as when the lecture times overlap, are less than the number of credits to be taken, then we recommend a liberal arts course to fill the remaining credits.
 
+## 3) 프로젝트 구조 (수정중)
+
 
 ## 3) To Do List📃 (수정중)
 1. 현재 사용자 학기에 열린(말은 이렇게 했지만 3-2용으로 코드가 다 되어있기는 함)과목 db에서 불러옴
