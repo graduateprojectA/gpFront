@@ -4,7 +4,7 @@
 
 웹사이트 CurVelio 시연 영상 (Web Site CurVelio Demonstration Video): 
 
-## 2) 프로젝트에 대한 소개✏
+## 2) 프로젝트에 대한 소개✏ (수정중, 프로젝트 구조 추가)
 
 CurVelio는 시간표 자동 생성 웹사이트로, 각 학번과 학기에 맞는 커리큘럼에 따라, 강의를 표시하고, 시간표를 자동으로 생성해주는 웹입니다.사용자에게 맞춤형 시간표를 제공함으로써, 기존에 시간표 설계의 불편함을 해결해 줍니다. <br>
 저희는 사용자로부터 학번, 학기, 들을 학점 수, 원하지 않는 시간대, 원하지 않는 분반, 그리고 사용자가 중요하게 생각하는 항목의 가중치값(건물 간 거리, 공강 시간 등)을 입력받습니다.
@@ -20,22 +20,32 @@ The user's input automatically generates timetables.
 <br>
 If the credits in the generated timetable, such as when the lecture times overlap, are less than the number of credits to be taken, then we recommend a liberal arts course to fill the remaining credits.
 
-## 3) 프로젝트 구조 (수정중)
 
+## 3) To Do List📃
 
-## 3) To Do List📃 (수정중)
-1. 현재 사용자 학기에 열린(말은 이렇게 했지만 3-2용으로 코드가 다 되어있기는 함)과목 db에서 불러옴
-2. 분반별로 가능한 모든 시간표 생성(ex: A분반이 2개 B분반이 3개 나머지가 다 1개면 시간표 6개 생성. )
-3. 사용자가 입력한 불가능한 시간대 DB에서 불러옴
-4. 사용자가 입력한 안들을 분반 DB에서 불러옴
-5. 2에서 만든 시간표에서 2,3을 제외한 시간표들을 DB에 저장
+전체적인 구조
+- [x] React & Nodejs 연동하기
+- [x] UI 설계
+- [ ] Nodejs 코드
+- [ ] React 코드
+- [x] DEMO 코드 완성 (html,js,php 등 사용)
 
+알고리즘
+- [x] 컴퓨터공학과 18학번 3학년 2학기에 열린 과목 DB 저장 및 연결 가능
+- [x] 분반 별 가능한 모든 시간표 생성 가능  (ex: A분반이 2개 B분반이 3개 나머지가 다 1개면 총 경우의 수에 맞게 시간표 6개 생성)
+- [x] 사용자가 입력한 원하지 않는 시간대 DB 연결 가능
+- [x] 사용자가 입력한 원하지 않는 분반 DB 연결 가능
+- [ ] 컴퓨터공학과 18~21학번 커리큘럼 DB에 입력
+- [ ] 2021-1에 열릴 과목들 DB에 입력
+- [ ] 사용자로부터 가중치값 설정받고 가중치값에 맞는 시간표 생성
+- [ ] 사용자에게 맞춤형 (교양)수업 추천
 
-## 4) Reference🔗 (수정중)
-웹 기반 시간표 자동 조합 프로그램 - BATTO : https://www.tuwlab.com/showcase/20026
-<br>
-[C언어]가능한 시간표 조합을 모두 찾기 :  http://blog.naver.com/PostView.nhn?blogId=makariotita&logNo=70173896828&parentCategoryNo=&categoryNo=15&viewDate=&isShowPopularPosts=true&from=search
-
+## 4) Reference🔗
+[React] React blog : https://reactjs.org/blog/2020/10/20/react-v17.html<br>
+[Nodejs]생활코딩 Nodejs : https://opentutorials.org/course/2136/11850<br>
+웹 기반 시간표 자동 조합 프로그램 - BATTO : https://www.tuwlab.com/showcase/20026<br>
+[C언어]가능한 시간표 조합을 모두 찾기 :  http://blog.naver.com/PostView.nhn?blogId=makariotita&logNo=70173896828&parentCategoryNo=&categoryNo=15&viewDate=&isShowPopularPosts=true&from=search<br>
+콘텐츠 기반 추천 알고리즘 : https://techblog-history-younghunjo1.tistory.com/115<br>
 
 
 ## 5) 팀원 소개 및 기술 블로그🔨
