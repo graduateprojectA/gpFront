@@ -20,6 +20,8 @@ The user's input automatically generates timetables.
 <br>
 If the credits in the generated timetable, such as when the lecture times overlap, are less than the number of credits to be taken, then we recommend a liberal arts course to fill the remaining credits.
 
+![image](https://user-images.githubusercontent.com/55133538/101370660-1d01e480-38ed-11eb-8fcb-a38c826db387.png)
+
 
 ## 3) To Do List📃
 
@@ -35,6 +37,7 @@ If the credits in the generated timetable, such as when the lecture times overla
 - [x] 분반 별 가능한 모든 시간표 생성 가능  (ex: A분반이 2개 B분반이 3개 나머지가 다 1개면 총 경우의 수에 맞게 시간표 6개 생성)
 - [x] 사용자가 입력한 원하지 않는 시간대 DB 연결 가능
 - [x] 사용자가 입력한 원하지 않는 분반 DB 연결 가능
+- [x] 강의 계획안 크롤링 가능
 - [ ] 컴퓨터공학과 18~21학번 커리큘럼 DB에 입력
 - [ ] 2021-1에 열릴 과목들 DB에 입력
 - [ ] 사용자로부터 가중치값 설정받고 가중치값에 맞는 시간표 생성
