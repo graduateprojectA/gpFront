@@ -58,7 +58,7 @@ If the credits in the generated timetable, such as when the lecture times overla
 <br><br>
 정예림(Yelim Jung) : https://m.blog.naver.com/118dg?suggestAddBuddy=true
 
-## 6) License 표시🔐  
+## 6) LICENSE🔐  
   
 MIT License
 Copyright (c) 2020 graduateprojectA
