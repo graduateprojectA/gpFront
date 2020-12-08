@@ -49,7 +49,7 @@ If the credits in the generated timetable, such as when the lecture times overla
 웹 기반 시간표 자동 조합 프로그램 - BATTO : https://www.tuwlab.com/showcase/20026<br>
 [C언어]가능한 시간표 조합을 모두 찾기 :  http://blog.naver.com/PostView.nhn?blogId=makariotita&logNo=70173896828&parentCategoryNo=&categoryNo=15&viewDate=&isShowPopularPosts=true&from=search<br>
 콘텐츠 기반 추천 알고리즘 : https://techblog-history-younghunjo1.tistory.com/115<br>
-
+[호스팅] AWS EC2 인스턴스 생성, 접속, MySQL 설치, Apache, PHP 연동 : https://ndb796.tistory.com/314<br>
 
 ## 5) 팀원 소개 및 기술 블로그🔨
 
