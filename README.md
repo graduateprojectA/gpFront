@@ -43,8 +43,8 @@ If the credits in the generated timetable, such as when the lecture times overla
 전체적인 구조
 - [x] React & Nodejs 연동하기
 - [x] UI 설계
-- [ ] Nodejs 코드
 - [ ] React 코드
+- [ ] Nodejs 코드
 - [x] DEMO 코드 완성 (html,js,php 등 사용)
 
 알고리즘
