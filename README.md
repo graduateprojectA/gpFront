@@ -21,6 +21,7 @@ The user's input automatically generates timetables.
 If the credits in the generated timetable, such as when the lecture times overlap, are less than the number of credits to be taken, then we recommend a liberal arts course to fill the remaining credits.
 
 <img src = "https://user-images.githubusercontent.com/55133538/101370660-1d01e480-38ed-11eb-8fcb-a38c826db387.png" width="600px">
+<img src = "https://user-images.githubusercontent.com/55133538/101752471-e9090800-3b14-11eb-98a3-1486cab2098a.png" width="600px">
 
 
 ### 시나리오 설계
