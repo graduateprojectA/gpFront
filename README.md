@@ -2,7 +2,7 @@
 
 ## 1) 시연 영상 (유튜브채널 주소) 📽
 
-웹사이트 CurVelio 시연 영상 (Web Site CurVelio Demonstration Video): 
+웹사이트 CurVelio 시연 영상 (Web Site CurVelio Demonstration Video): https://www.youtube.com/watch?v=jL7Vck2iIyc&feature=youtu.be
 
 ## 2) 프로젝트에 대한 소개✏ (수정중, 프로젝트 구조 추가)
 
@@ -20,10 +20,6 @@ The user's input automatically generates timetables.
 <br>
 If the credits in the generated timetable, such as when the lecture times overlap, are less than the number of credits to be taken, then we recommend a liberal arts course to fill the remaining credits.
 
-<img src = "https://user-images.githubusercontent.com/55133538/101370660-1d01e480-38ed-11eb-8fcb-a38c826db387.png" width="600px">
-<img src = "https://user-images.githubusercontent.com/55133538/101752471-e9090800-3b14-11eb-98a3-1486cab2098a.png" width="600px">
-
-
 ### 시나리오 설계
 1. 사용자로부터 학번, 해당 학기, 들을 학점 수, 원하지 않는 시간대를 입력받습니다.
 2. 원하지 않는 분반, 추가적으로 필요한 분반(재수강 등의 이유로)을 우선적으로 입력받습니다. 
@@ -36,6 +32,9 @@ If the credits in the generated timetable, such as when the lecture times overla
 만약, 강의 시간이 겹치는 경우와 같이 생성된 시간표의 학점이 들을 학점 수보다 부족하다면, 나머지 학점을 채울 수 있는 교양 과목을 추천해줍니다.
 
 ### 프로젝트 구조(architecture)
+
+<img src = "https://user-images.githubusercontent.com/55133538/101370660-1d01e480-38ed-11eb-8fcb-a38c826db387.png" width="600px">
+<img src = "https://user-images.githubusercontent.com/55133538/101752471-e9090800-3b14-11eb-98a3-1486cab2098a.png" width="600px">
 
 
 
