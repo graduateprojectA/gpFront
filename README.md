@@ -20,7 +20,8 @@ The user's input automatically generates timetables.
 <br>
 If the credits in the generated timetable, such as when the lecture times overlap, are less than the number of credits to be taken, then we recommend a liberal arts course to fill the remaining credits.
 
-![image](https://user-images.githubusercontent.com/55133538/101370660-1d01e480-38ed-11eb-8fcb-a38c826db387.png)
+<img src = "https://user-images.githubusercontent.com/55133538/101370660-1d01e480-38ed-11eb-8fcb-a38c826db387.png" width="600px">
+
 
 ### 시나리오 설계
 1. 사용자로부터 학번, 해당 학기, 들을 학점 수, 원하지 않는 시간대를 입력받습니다.
@@ -32,11 +33,6 @@ If the credits in the generated timetable, such as when the lecture times overla
 사용자의 입력값에 따, 시간표가 자동으로 생성됩니다. 
 <br>
 만약, 강의 시간이 겹치는 경우와 같이 생성된 시간표의 학점이 들을 학점 수보다 부족하다면, 나머지 학점을 채울 수 있는 교양 과목을 추천해줍니다.
-
-외부 마이크에서 주변 소리 녹음
-주변 소리 중 불필요 소음 제거 / 필요 소리 분류
-필요소리 분류 : 사용자를 향한 경적소리, 초인종 소리, 지하철 내 안내방송, 가전제품 알림음
-필요소리를 사용자에게 실시간으로 전달 (음성 / 화면)
 
 ### 프로젝트 구조(architecture)
 
