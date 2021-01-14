@@ -1,0 +1,108 @@
+create table curriculum(
+curriculum_id int auto_increment primary key,
+student_id int not null,   #학번 18, 19, 20, 21
+major varchar(50)not null,
+field_name varchar(30),
+field_number int, #영역 개수
+field_credit int
+)
+
+
+## 18
+
+[필수교양1]
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','이화진선미(기세)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','이화진선미(나리)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','사고와표현',2,5);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','글로벌의사소통(대영)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','글로벌의사소통(제2외국어)',2,4);   -  선택
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','글로벌의사소통(고영)',1,3);             -  선택
+
+[필수교양2] - 융복합교양 3영역 9학점 (선택)
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','융복합(문학과언어)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','융복합(표현과예술)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','융복합(역사와철학)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','융복합(인간과사회)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','융복합(과학과기술)',1,3);
+
+[필수교양3] - 융합기초
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','융합기초',1,3);
+
+[전공기초]  심화 31 / 복수 31
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','전공기초(필수)',7,13);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','전공기초(과학)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','전공기초(물리)'1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','전공기초(C)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','전공기초(미적)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','전공기초(선택)',1,1);     - 글엔기
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','전공기초(수학)',2,6);
+
+전공 [최소전공]   심화 63 /  복수 51
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','전공(필수)',6,18); 
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','전공(선택),15,45');       -  정말 임의로 정해놓은 값
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(18,'컴퓨터공학','교직',3,8);
+
+
+## 19
+[필수교양1]
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','이화진선미(기세)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','이화진선미(나리)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','사고와표현',2,5);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','글로벌의사소통(대영)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','글로벌의사소통(제2외국어)',2,4);   -  선택
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','글로벌의사소통(고영)',1,3);             -  선택
+
+[필수교양2] - 융복합교양 3영역 9학점 (선택)
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','융복합(문학과언어)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','융복합(표현과예술)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','융복합(역사와철학)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','융복합(인간과사회)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','융복합(과학과기술)',1,3);
+
+[필수교양3] - 융합기초
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','융합기초',1,3);
+
+[전공기초]  심화 31 / 복수 31
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','전공기초(필수)',7,13);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','전공기초(과학)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','전공기초(물리)'1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','전공기초(C)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','전공기초(미적)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','전공기초(선택)',1,1);     - 글엔기
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','전공기초(수학)',2,6);
+
+전공 [최소전공]   심화 63 /  복수 51
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','전공(필수)',6,18); 
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','전공(선택),15,45');       -  정말 임의로 정해놓은 값(심화전공 )
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','교직',3,8);
+
+
+## 20
+[필수교양1]
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','이화진선미(기세)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','사고와표현',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','글로벌의사소통',2,6);       
+
+[필수교양2] - 융복합교양 4영역 12학점 (선택)
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','융복합(문학과언어)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','융복합(예술과표현)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','융복합(역사와철학)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','융복합(인간과사회)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','융복합(과학과기술)',1,3);
+
+[필수교양3] - 융합기초
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','컴퓨팅과수리적사고',1,3);
+
+[전공기초]  심화 29 / 복수 29
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','전공기초(필수)',5,11);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','전공기초(과학)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','전공기초(물리)'1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','전공기초(C)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','전공기초(미적)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','전공기초(선택)',1,3);     - python
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','전공기초(수학)',2,6);
+
+전공 [최소전공]   심화 63 /  복수 51
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','전공(필수)',6,18); 
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','전공(선택),15,45');       -  정말 임의로 정해놓은 값
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(20,'컴퓨터공학','교직',3,8);
