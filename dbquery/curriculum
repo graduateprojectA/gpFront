@@ -46,7 +46,7 @@ INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) V
 ## 19
 [필수교양1]
 INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','이화진선미(기세)',1,3);
-INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','이화진선미(나리)',1,3);
+INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','이화진선미(나리)',1,2);
 INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','사고와표현',2,5);
 INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','글로벌의사소통(대영)',1,3);
 INSERT INTO curriculum (student_id,major,field_name,field_number,field_credit) VALUES(19,'컴퓨터공학','글로벌의사소통(제2외국어)',2,4);   -  선택
