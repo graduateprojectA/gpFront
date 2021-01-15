@@ -173,3 +173,8 @@ INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_na
 INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37405, ‘컴퓨터공학단기인턴십II’,2,1);
 INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37406, ‘컴퓨터공학단기인턴십III’,1,1);
 INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37406, ‘컴퓨터공학단기인턴십III’,2,1);
+
+교직 [전공선택(교직)] K0001
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '교직', 35622, '정보.컴퓨터교과교육론', 3, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '교직', 37017, '정보.컴퓨터교과논리및논술', 3, 1, 2, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '교직', 35511, '정보.컴퓨터교과교재연구및지도법', 3, 2, 3, 3);
