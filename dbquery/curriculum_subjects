@@ -188,6 +188,18 @@ INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_na
 INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', G17245, ‘빅데이터플랫폼’, 2, 3, 3);
 INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', G14458, ‘자연어처리특론’, 2, 3, 3);
 INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', G17617, ‘컴퓨터비전특론’, 2, 3, 3);
+계절학기의 경우 course_grade == 3, course_semester 으로 표시하겠음
+기준은 전공 강의계획안 기준임
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37407, ‘SW자가학습I’, 3, 1 );
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37408, ‘SW자가학습II’, 3, 1 ); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37409, ‘SW자가학습III’, 3, 1 ); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37410, ‘SW자가학습Ⅳ’, 3, 1 ); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37411, ‘SW자가학습Ⅴ’, 계절, 1 ); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38430, ‘SW특별교육I’, 계절, 1 ); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38431, ‘SW특별교육II’, 계절, 1 ); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38432, ‘SW특별교육III’, 계절, 1 ); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38433, ‘SW특별교육IV’, 계절, 1 ); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38434, ‘SW특별교육V’, 계절, 1 ); 
 
 
 
