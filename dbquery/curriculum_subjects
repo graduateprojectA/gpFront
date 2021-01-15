@@ -1,0 +1,175 @@
+create table curriculum_subjects(
+curriculum_id int auto_increment primary key,
+student_id int,   #학번 18, 19, 20, 21
+major varchar(50),
+field_name	varchar(30),
+course_id 		int,
+course_name	varchar(50),
+course_grade      	int, 	#권장학년
+course_semester 	int,
+course_time 	 decimal(2,1),  	#시간
+course_credit  	int		#학점,
+pre_course_id   int 		#선수과목 학수번호
+)
+
+## 18
+[필수교양1]
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade, course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(기세)’, 10023, ‘기독교와세계’, 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade, course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(기세)’, 10023, ‘기독교와세계’, 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade, course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11256, ‘공존과협력의유토피아’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade, course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11256, ‘공존과협력의유토피아’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade, course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11254, ‘관계의미학:사랑과윤리’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11254, ‘관계의미학:사랑과윤리’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11095, ‘나눔리더십’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11095, ‘나눔리더십’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11253, ‘나눔의인간학’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11253, ‘나눔의인간학’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11252, ‘청춘의자기이해’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11252, ‘청춘의자기이해’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11255, ‘호모엠파티쿠스:소통·공감·신뢰’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '이화진선미(나리)’, 11255, ‘호모엠파티쿠스:소통·공감·신뢰’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '사고와표현’, 10021, ‘우리말과글쓰기’, 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '사고와표현’, 10021, ‘우리말과글쓰기’, 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit,pre_course_id) VALUES(18, ‘컴퓨터공학’, '사고와표현’, 11094, ‘고전읽기와글쓰기’, 2, 1, 3, 2,10021);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit,pre_course_id) VALUES(18, ‘컴퓨터공학’, '사고와표현’, 11094, ‘고전읽기와글쓰기’, 2, 2, 3, 2,10021);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(대영)’, 10098, ‘대학영어’, 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(대영)’, 10098, ‘대학영어’, 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(고영)’, 10099, ‘고급영어’, 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(고영)’, 10099, ‘고급영어’, 1, 2, 3, 3);
+
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11036, ‘중국어Ⅰ’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11037, ‘중국어Ⅱ’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11073, ‘프랑스어Ⅰ’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11074, ‘프랑스어Ⅱ’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11033, ‘독일어Ⅰ’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11034, ‘독일어Ⅱ’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11091, ‘일본어Ⅰ’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11092, ‘일본어Ⅱ’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11066, ‘스페인어Ⅰ’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11067, ‘스페인어Ⅱ’, 1, 2, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11064, ‘러시아어Ⅰ’, 1, 1, 3, 2);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,
+course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '글로벌의사소통(제2외국어)’, 11065, ‘러시아어Ⅱ’, 1, 2, 3, 2);
+
+[필수교양2] – 융복합
+[필수교양3] – 융합기초
+[전공기초] [심화전공:31학점/(복수)전공:31학점        
+
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 38403, 'Python프로그래밍및실습', 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 35339, '객체지향프로그래밍', 2, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 20479, '이산수학', 2, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 38408, 'SW리더십세미나I', 1, 1, 1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 38408, 'SW리더십세미나I', 2, 1, 1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 38409, 'SW리더십세미나II', 1, 1, 1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 38409, 'SW리더십세미나II', 2, 1, 1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 38410, 'SW리더십세미나III', 1, 1, 1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 38410, 'SW리더십세미나III', 2, 1, 1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(필수)', 20410, '일반물리학실험I', 1, 1, 1.5, 1); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(과학)', 20413, '일반생물학I', 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(과학)', 20416, '일반화학I', 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(과학)', 30002, '일반물리학II', 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(과학)', 20412, '일반생물학', 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(과학)', 20415, '일반화학', 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(과학)', 30001, '일반물리학', 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(과학)', 20409, '일반물리학I', 1, 1, 3, 3);
+
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(C)', 36339, '컴퓨터프로그래밍및실습', 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(C)', 36339, '컴퓨터프로그래밍및실습', 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(C)', 38407, 'C프로그래밍및실습', 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(미적)', 20406, '미분적분학', 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(미적)', 20407, '미분적분학I', 1, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(선택)', 36340, '글로벌여성엔지니어와기업가정신', 3, 1, 1, 1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(수학)', 20642, '수치해석', 2, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(수학)', 20642, '수치해석', 2, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(수학)', 36341, '공학수학', 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(수학)', 20441, '선형대수학I', 1, 2, 4.5, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(수학)', 20454, '정수론', 1, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공기초(수학)', 34980, '확률및통계학', 2, 1, 3, 3);
+
+전공 [최소전공] [심화전공:63학점/(복수)전공:51학점 이수 Y J0001
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(필수)', 36503, '소프트웨어융합창의설계', 2, 1, 4.5, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(필수)', 20481, '자료구조', 2, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(필수)', 20493, '컴퓨터구조', 2, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(필수)', 20477, '운영체제', 3, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(필수)', 34743, '정보통신공학', 3, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(필수)', 20472, '소프트웨어공학', 3, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 36500, '디지털논리설계', 2, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 36502, '디지털논리실험', 2, 1, 1.5, 1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 30226, '오토마타및형식언어', 2, 1, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 35914, 'JAVA프로그래밍및실습', 2, 2, 4.5, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38425, '시스템SW및실습’, 2, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38426,‘오픈SW플랫폼’,2,2,3,3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37082, ‘SW산학실무설계I’, 3, 1, 2, 2); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37083, ‘SW산학실무설계II’, 3, 1, 2, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37084, ‘SW산학실무설계III’, 3, 1, 2, 4); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 20471, ‘데이터베이스’, 3, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37269, ‘오픈SW프로젝트’, 3, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 20497, ‘컴퓨터알고리즘’, 3, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37271, ‘임베디드시스템및실험’, 3, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 36506, ‘캡스톤디자인프로젝트A’, 3, 2, 4.5, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 20494, ‘컴퓨터그래픽스’, 3, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 20495, ‘컴퓨터네트워크’, 3, 2, 3, 3);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 36510, ‘가상현실’, 4, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38427, ‘스마트SW시스템설계I’, 4, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 35913, ‘인간컴퓨터상호작용’, 4, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 20480, ‘인공지능’, 4, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 36508, ‘정보통신시스템실습I’, 4, 1, 3, 2); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 36507, ‘캡스톤디자인프로젝트B, 4, 1, 4.5, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 34811, ‘컴파일러’, 4, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38428, ‘기계학습’, 4, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 36511, ‘빅데이터응용’, 4, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38429, ‘스마트SW시스템설계II’, 4, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 36509, ‘정보통신시스템실습II’, 4, 2, 3, 2); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37270, ‘클라우드컴퓨팅’, 4, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 20499, ‘프로그래밍언어론’, 4, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38569, ‘바이오데이터전산기초및실습’, 3, 1, 4.5, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38473, ‘사이버보안개론’, 3, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38475, ‘현대암호기초’, 3, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38487, ‘블록체인응용’, 3, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38601, ‘의학영상처리’, 3, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38483, ‘네트워크보안’, 4, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38497, ‘디지털포렌식스’, 4, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38480, ‘정보시스템보안’, 4, 1, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_grade,course_semester,course_time,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38596, ‘바이오로봇공학’, 4, 2, 3, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38082, ‘SW자기설계학습I’, 1, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38082, ‘SW자기설계학습I’, 2, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38083, ‘SW자기설계학습II’, 1, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38083, ‘SW자기설계학습II’, 2, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38084, ‘SW자기설계학습III’, 1, 3); 
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 38084, ‘SW자기설계학습III’, 2, 3); 
+
+
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37404, ‘컴퓨터공학단기인턴십I’,1,1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37404, ‘컴퓨터공학단기인턴십I’,2,1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37405, ‘컴퓨터공학단기인턴십II’,1,1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37405, ‘컴퓨터공학단기인턴십II’,2,1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37406, ‘컴퓨터공학단기인턴십III’,1,1);
+INSERT INTO curriculum_subjects (student_id,major,field_name,course_id,course_name,course_semester,course_credit) VALUES(18, ‘컴퓨터공학’, '전공(선택)', 37406, ‘컴퓨터공학단기인턴십III’,2,1);
