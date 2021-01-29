@@ -1,12 +1,13 @@
-CREATE TABLE `graduate`.`majors` (                    /*2020-2 열린 컴공 전공, 필교 들어야 하는 모든 수업, 즉 커리큘럼 - 강의계획안 내용 반영된 버전 */
-  `major_name` VARCHAR(200) NOT NULL,
-  `major_number` INT NOT NULL,
+CREATE TABLE `graduate`.`majors` (             /*2020-2학기에 열린 모든 수업*/
+`id` INT NOT NULL AUTO_INCREMENT,
+  `major_name` VARCHAR(200) NULL,
+  `major_number` INT  NULL,
   `category` VARCHAR(100) NULL,
   `recommend_time` INT NULL,
   `this_time` INT NULL,
   `professor_name` VARCHAR(200) NULL,
-  `division_number` INT NOT NULL,
-  PRIMARY KEY (`major_name`, `major_number`,`division_number`));
+  `division_number` INT NULL,
+  PRIMARY KEY (`id`));
 
 
 CREATE TABLE `graduate`.`courses` (               /*우리학교에 있는 모든 수업*/ 
